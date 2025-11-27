@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="tema-padrao">
+
+    <audio id="clickSound" src="click.mp3"></audio>
+
+    <div class="theme-buttons">
+        <button onclick="setTheme('padrao')">Padrão</button>
+        <button onclick="setTheme('neon')">Neon</button>
+        <button onclick="setTheme('preto')">Preto</button>
+    </div>
+
+    <div class="calculator">
+        <input type="text" id="display" class="display" disabled>
+
+        <div class="buttons">
+            <button onclick="press('(')">(</button>
+            <button onclick="press(')')">)</button>
+            <button onclick="press('%')">%</button>
+            <button onclick="clearDisplay()">C</button>
+
+            <button onclick="press('7')">7</button>
+            <button onclick="press('8')">8</button>
+            <button onclick="press('9')">9</button>
+            <button onclick="press('/')">÷</button>
+
+            <button onclick="press('4')">4</button>
+            <button onclick="press('5')">5</button>
+            <button onclick="press('6')">6</button>
+            <button onclick="press('*')">×</button>
+
+            <button onclick="press('1')">1</button>
+            <button onclick="press('2')">2</button>
+            <button onclick="press('3')">3</button>
+            <button onclick="press('-')">−</button>
+
+            <button onclick="press('0')">0</button>
+            <button onclick="press('.')">.</button>
+            <button onclick="press('^')">^</button>
+            <button onclick="press('+')">+</button>
+
+            <button class="equal" onclick="calculate()">=</button>
+        </div>
+    </div>
+
+    <div class="history">
+        <h2>Histórico</h2>
+        <ul id="historyList"></ul>
+        <button onclick="clearHistory()">Limpar Histórico</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

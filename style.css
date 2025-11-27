@@ -1,0 +1,120 @@
+.theme-buttons {
+    display: flex;
+    gap: 10px;
+    margin: 20px;
+}
+.theme-buttons button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.calculator {
+    width: 260px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+.display {
+    width: 100%;
+    height: 60px;
+    font-size: 28px;
+    text-align: right;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    margin-bottom: 15px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+}
+
+button {
+    padding: 18px;
+    font-size: 18px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.1s ease;
+}
+
+button:active {
+    transform: scale(0.90);
+}
+
+.equal {
+    grid-column: span 4;
+    background: #008cff;
+    color: white;
+}
+
+.history {
+    width: 260px;
+    margin: 20px auto;
+}
+
+.history ul {
+    max-height: 200px;
+    overflow-y: auto;
+    background: rgba(0,0,0,0.1);
+    padding: 10px;
+    border-radius: 6px;
+}
+
+body.tema-padrao {
+    background: linear-gradient(to bottom, white, #bfbfbf, black);
+    color: black;
+}
+body.tema-padrao button {
+    background: white;
+    color: black;
+}
+
+body.tema-neon {
+    background: #040404;
+    color: #00faff;
+}
+
+body.tema-neon .calculator {
+    background: #0a0a0a;
+    box-shadow: 0 0 14px #00faff;
+}
+
+body.tema-neon .display {
+    background: black;
+    color: #00faff;
+    box-shadow: inset 0 0 12px #00faff;
+}
+
+body.tema-neon button {
+    background: #000;
+    border: 1px solid #00faff;
+    color: #00faff;
+    box-shadow: 0 0 6px #00faff;
+}
+
+body.tema-preto {
+    background: #000;
+    color: white;
+}
+
+body.tema-preto .calculator {
+    background: #111;
+}
+
+body.tema-preto .display {
+    background: #000;
+    color: white;
+}
+
+body.tema-preto button {
+    background: #222;
+    color: white;
+}
