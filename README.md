@@ -1,34 +1,123 @@
-# 📐 Calculadora Completa — HTML, CSS e JavaScript
+# ✨ **Projeto: Página com Múltiplos Temas (Padrão / Escuro / Neon)**
 
-Uma calculadora simples, moderna e funcional, construída com **HTML**, **CSS** e **JavaScript**, contendo:
-
-- Operações básicas: **+  −  ×  ÷**
-- Operações avançadas: **%  ^ (potenciação)  () (parênteses)**
-- Histórico persistente usando **localStorage**
-- Interface limpa e responsiva
-- Código simples e fácil de entender
-- Versão extra de CSS com **fundo em gradient** (branco → cinza → preto)
+Uma página HTML simples com troca dinâmica de temas usando CSS e JavaScript.
+Inclui três estilos visuais diferentes e opção de backend em C# caso você queira expandir o projeto.
 
 ---
 
-## 🚀 Funcionalidades
+## 🎨 **Temas Disponíveis**
 
-### 🧮 Operações suportadas
-- Soma (**+**)  
-- Subtração (**−**)  
-- Multiplicação (**×**)  
-- Divisão (**÷**)  
-- Porcentagem (**%**)  
-- Potência (**^**)  
-- Parênteses para expressões complexas  
+### 🌅 **Tema Padrão (Gradient)**
 
-### 📜 Histórico
-- Registra todas as expressões e resultados automaticamente  
-- Armazenado no **localStorage**  
-- Permanece mesmo após recarregar a página  
-- Botão para limpar todo o histórico  
+* Fundo *gradient*: branco → cinza → preto
+* Texto escuro
+* Visual limpo
+
+### 🌑 **Tema Preto**
+
+* Fundo totalmente preto
+* Texto branco
+* Ótimo para baixa iluminação
+
+### 🔮 **Tema Neon**
+
+* Fundo preto
+* Cores vibrantes neon: verde / rosa / azul
+* Estilo futurista cyberpunk
 
 ---
 
-## 📁 Estrutura do projeto
+## 🔘 **Sistema de Troca de Tema**
 
+A interface possui **3 botões**:
+
+| Botão     | Tema                            |
+| --------- | ------------------------------- |
+| ☀️ Padrão | Gradient branco → cinza → preto |
+| 🌙 Preto  | Tema escuro                     |
+| 🔥 Neon   | Tema colorido vibrante          |
+
+O JavaScript troca dinamicamente a folha de estilo ativa.
+
+---
+
+## 📁 **Estrutura do Projeto**
+
+```
+/project
+│── index.html
+│── style-default.css
+│── style-dark.css
+│── style-neon.css
+│── script.js
+└── backend.cs   (opcional)
+```
+
+---
+
+## 🚀 **Como Rodar**
+
+### 🔹 **Modo Simples (sem backend)**
+
+Apenas abra:
+
+```
+index.html
+```
+
+Pronto.
+
+---
+
+### 🔹 **Modo Avançado (com backend C#)**
+
+1. Crie o projeto:
+
+```bash
+dotnet new web
+```
+
+2. Adicione seu backend (`backend.cs`).
+
+3. Rode:
+
+```bash
+dotnet run
+```
+
+4. Acesse:
+
+```
+http://localhost:5000
+```
+
+---
+
+## 🛠 **Tecnologias Utilizadas**
+
+* **HTML5**
+* **CSS3**
+* **JavaScript**
+* **C# / .NET (opcional)**
+
+---
+
+## 🎯 **Objetivo**
+
+Criar uma base extremamente simples e clara para:
+
+* Testar visualizações diferentes com CSS
+* Alternar temas dinamicamente
+* Servir como template para futuros projetos
+* Ser fácil de modificar e expandir
+
+---
+
+## 📜 **Licença**
+
+Livre e aberta.
+Use, modifique, destrua e reconstrua como quiser. 😎
+
+---
+
+## 💬 **Quer algo ainda mais bonito?**
