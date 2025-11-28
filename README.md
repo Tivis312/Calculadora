@@ -119,5 +119,3 @@ Livre e aberta.
 Use, modifique, destrua e reconstrua como quiser. 😎
 
 ---
-
-## 💬 **Quer algo ainda mais bonito?**
