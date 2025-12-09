@@ -115,7 +115,7 @@ Criar uma base extremamente simples e clara para:
 
 ## 📜 **Licença**
 
-Livre e aberta.
-Use, modifique, destrua e reconstrua como quiser. 😎
+Livre para uso pessoal.
+Modificações não são permitidas.
 
 ---
